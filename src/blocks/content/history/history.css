@@ -1,4 +1,52 @@
 .history {
   width: 1024px;
+  margin: 40px auto 0;
+  /* position: absolute;
+  top: 0;
+  left: auto; */
+  background-color: #000;
+}
+
+.history__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  /* grid-gap: 45px; */
+}
+
+.history__item {
+  display: grid;
+  grid-column-gap: 30px;
+  border-bottom: 1px solid #fff;
+  /* margin: 30px 0 0; */
+  padding: 45px 0;
   margin: 0 auto;
+  width: 90%;
+}
+
+.history__item:last-child {
+  border-bottom: none;
+}
+
+.history__photo {
+  grid-row: 2/3;
+}
+
+.history__title {
+  font-family: 'Kelly Slab';
+  font-size: 32px;
+  font-weight: 400;
+  grid-column: 2/3;
+  margin: 0;
+}
+
+.history__text {
+  grid-row: 2/3;
+  margin: 0;
+  padding: 30px 0 0;
+  border-top: 3px dotted #6E6C6C;
+  font-size: 13px;
+  line-height: 20px;
 }

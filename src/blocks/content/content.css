@@ -1,11 +1,18 @@
 @import './main/main.css';
 @import './history/history.css';
 
+.content {
+  z-index: 2;
+  width: 100%;
+}
+
 .background {
   background-image: url('../../images/background.png');
-  width: auto;
+  position: absolute;
+  width: 100%;
   height: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  z-index: -1;
 }
