@@ -1,0 +1,77 @@
+.header {
+  width: 1024px;
+  font-family: 'Kelly Slab';
+  display: flex;
+  align-items: flex-end;
+  grid-column-gap: 50px;
+  height: 190px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.logo {
+  background: #000;
+  color: #DDC000;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 42px;
+  padding: 0 17px 25px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.logo__title {
+  font-size: 33px;
+  border-top: 3px solid #DDC000;
+  border-bottom: 3px solid #DDC000;
+  margin: 0;
+  padding: 5px 0 20px;
+}
+
+.logo__subtitle {
+  font-size: 20px;
+  margin: 0;
+  position: relative;
+  bottom: 13px;
+  background: #000;
+  padding: 0 5px;
+}
+
+.logo__about {
+  font-size: 15px;
+  margin: 0;
+  letter-spacing: 10px;
+}
+
+.nav {
+  width: 100%;
+  margin: 0 0 43px;
+}
+
+.nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.nav__link:hover {
+  color: #DDC000;
+}
+
+.nav__link.active {
+  color: #DDC000;
+}

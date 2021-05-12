@@ -1,0 +1,25 @@
+@import './vendor/fonts.css';
+@import './blocks/transitions/transitions.css';
+@import './blocks/header/header.css';
+@import './blocks/content/content.css';
+@import './blocks/footer/footer.css';
+html{
+  overflow-y: scroll;
+  overflow-y: overlay;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  background: #000;
+  color: #fff;
+}
+
+.text {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+  width: 100%;
+}
+
