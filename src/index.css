@@ -15,6 +15,20 @@ body {
   color: #fff;
 }
 
+.part {
+  width: 1024px;
+  margin: 40px auto 0;
+  background-color: #000;
+}
+
+.title {
+  font-family: 'Kelly Slab';
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+}
+
 .text {
   font-family: 'Open Sans', sans-serif;
 }

@@ -1,5 +1,7 @@
 @import './main/main.css';
 @import './history/history.css';
+@import './variety/variety.css';
+@import './brewery/brewery.css';
 
 .content {
   z-index: 2;

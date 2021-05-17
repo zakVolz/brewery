@@ -1,6 +1,7 @@
 import './index.css';
 import barba from '@barba/core';
 import barbaCss from '@barba/css';
+import './js/brewery';
 
 barba.use(barbaCss);
 
