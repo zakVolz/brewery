@@ -7,11 +7,11 @@
 
 .contacts__wrapper {
   display: grid;
-  grid-template-columns: 0.36fr 1fr;
+  grid-template-columns: 1fr 700px;
   grid-gap: 30px;
 }
 
-.contacts__subtitle {
+.contacts__name {
   font-family: 'Kelly Slab';
   font-size: 16px;
   font-weight: 400;
@@ -74,4 +74,17 @@
   font-size: 13px;
   outline: none;
   border: none;
+}
+
+.contacts__subtitle {
+  font-family: 'Kelly Slab';
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.contacts__border {
+  border-top: 1px solid #6e6c6c;
+  padding-top: 20px;
 }
