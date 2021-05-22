@@ -2,6 +2,7 @@
 @import './history/history.css';
 @import './variety/variety.css';
 @import './brewery/brewery.css';
+@import './contacts/contacts.css';
 
 .content {
   z-index: 2;

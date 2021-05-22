@@ -5,7 +5,7 @@
 }
 
 .slide-left-once-active {
-  transition: all .5s linear;
+  transition: all .5s ease-in-out;
 }
 
 .slide-left-once-to {
@@ -17,7 +17,7 @@
 }
 
 .slide-left-leave-active, .slide-left-leave-active .content {
-  transition: all 0.3s;
+  transition: all 0.3s ease-in-out;
 }
 
 .slide-left-leave-to {
@@ -29,7 +29,7 @@
 }
 
 .slide-left-enter-active, .slide-left-enter-active .content {
-  transition: all 0.3s linear
+  transition: all 0.3s ease-in-out;
 }
 
 .slide-left-enter-to {
@@ -45,7 +45,7 @@
 }
 
 .slide-right-once-active {
-  transition: all .5s linear;
+  transition: all .5s ease-in-out;
 }
 
 .slide-right-once-to {
@@ -69,7 +69,7 @@
 }
 
 .slide-right-enter-active, .slide-right-enter-active .content {
-  transition: all 0.3s linear
+  transition: all 0.3s ease-in-out;
 }
 
 .slide-right-enter-to {

@@ -1,7 +1,8 @@
 import './index.css';
 import barba from '@barba/core';
 import barbaCss from '@barba/css';
-import './js/brewery';
+import breweryListener from './js/brewery';
+// import './js/brewery';
 
 barba.use(barbaCss);
 
@@ -46,6 +47,7 @@ barba.init({
       once() { },
       leave() { },
       enter() { },
+      beforeEnter() { breweryListener(); },
     },
     {
       name: 'slide-left',
